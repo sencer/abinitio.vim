@@ -1,1 +1,1 @@
-au BufRead,BufNewFile input.txt,*.in set filetype=input
+au BufRead,BufNewFile input.txt,*.in,*.restart set filetype=input
