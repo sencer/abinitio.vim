@@ -4,6 +4,7 @@ endif
 let b:did_indent = 1
 
 set indentexpr=InputIndent(v:lnum)
+set indentkeys+=0/,0!,=~end,=~ATOMIC,=~K_POINTS
 
 function! InputIndent(lnum)
   let s:cur = getline(a:lnum)
