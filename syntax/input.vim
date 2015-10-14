@@ -8,6 +8,8 @@ set commentstring=!\ %s
 setlocal foldmethod=syntax
 setlocal foldlevel=1
 
+syn case ignore
+
 syn keyword inputTodo TODO FIXME NOTE REMARK
 syn match inputComment "#.*$" contains=inputTodo
 syn match inputComment "!.*$" contains=inputTodo
