@@ -1,3 +1,5 @@
+let b:match_words = '&\(END\)\@!:&END,@IF:@ENDIF,&\S*:\/'
+
 let g:tagbar_type_input = {
     \ 'ctagstype' : 'input',
     \ 'kinds' : [
